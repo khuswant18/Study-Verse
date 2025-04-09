@@ -12,8 +12,8 @@ function Navbar() {
           </a>
 
           <nav className="nav">
-            <NavLink href="#home" className="nav-link">Home</NavLink>
-            <NavLink href="#Features" className="nav-link">Courses</NavLink>
+            <NavLink to="" className="nav-link">Home</NavLink>
+            <NavLink to='/courses' href="" className="nav-link">Courses</NavLink>
             <NavLink href="#Pricing" className="nav-link">Pricing</NavLink>
             <NavLink href="#Blog" className="nav-link">Blog</NavLink>
             <NavLink href="#About" className="nav-link">About</NavLink>

@@ -14,7 +14,7 @@ const router = createBrowserRouter(
     <Route path='/' element={<Layout/>}>
       <Route path='' element={<Hero/>}></Route>
       <Route path='courses' element={<Courses/>}></Route>
-    </Route>
+    </Route>  
   )
 )
 createRoot(document.getElementById('root')).render(
