@@ -1,0 +1,137 @@
+.pricing {
+    background-color: #000;
+    color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .pricing-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 4px #f9d423, 0 0 16px #f9d423;
+    animation: fadeIn 2s ease-in-out forwards;
+
+  }
+  
+  .pricing-description {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    color: #ccc; 
+    animation: fadeIn 2s ease-in-out forwards;
+
+    
+
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .pricing-cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .pricing-card {
+    height: 25rem;
+    background-color: #111; 
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(255, 255, 0, 0.1);
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid rgba(255, 255, 0, 0.2);
+    opacity: 0;
+    animation: fadeInUp 0.8s ease forwards;
+    
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .pricing-card:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  .pricing-card:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+  .pricing-card:nth-child(3) {
+    animation-delay: 0.7s;
+  }
+
+  
+  .pricing-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 12px rgba(255, 0, 0, 0.2); 
+    border-color: rgba(255, 0, 0, 0.3);
+  }
+  
+  
+  .plan-title {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .plan-price {
+    font-size: 2rem;
+    text-shadow: 0 0 1px #f9d423, 0 0 8px #f9d423;
+    margin-bottom: 1.5rem;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  
+  .features li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+  }
+
+  
+  .choose-plan {
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .choose-plan:hover {
+    background-color: #8a8585;
+
+
+
+
+  }
+  
