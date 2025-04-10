@@ -1,0 +1,88 @@
+.success-container {
+    padding: 60px 20px;
+  }
+  
+  .main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .success-header {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: -30px; 
+  }
+  
+  .success-title {
+    font-size: 3rem;
+    text-shadow: 0 0 4px #f9d423, 0 0 16px #f9d423;
+    text-align: center;
+    margin: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+    padding-top: 4rem;
+
+
+  }
+  
+  .success-description {
+    font-size: 1.1rem;
+    color: #ccc;
+    text-align: center;
+    margin: 0; 
+    animation: fadeIn 2s ease-in-out forwards;
+
+  }
+  
+  .stories-cards {
+    display: flex;
+    flex-wrap: wrap;
+    height: 25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 0 0 8px rgba(255, 255, 0, 0.1);
+    
+  }
+  
+  .story-wrapper {
+    width: 280px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    padding: 30px 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    border: 2px solid rgba(255, 255, 0, 0.2);
+    animation: fadeIn 3s ease-in-out forwards;
+}
+  
+  .story-wrapper:hover {
+    transform: translateY(-8px);
+  }
+  
+  .story-image img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .student-name {
+    font-size: 1.2rem;
+    color: #f2eded;
+    
+    margin: 10px 0 5px;
+  }
+  
+  .student-course {
+    font-weight: bold;
+    text-shadow: 0 0 2.5px #f9d423, 0 0 10px #f9d423;
+    margin-bottom: 10px;
+  }
+  
+  .student-quote {
+    font-style: italic;
+    color: #6b6868;
+    font-size: 0.95rem;
+  }
+  

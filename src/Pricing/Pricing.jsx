@@ -19,8 +19,8 @@ const Pricing = () => {
               <li><FaCheckCircle /> Feature Three</li>
             </ul>
             <button className="choose-plan">Choose Plan</button>
-          </div>
-
+          </div>  
+ 
           <div className="pricing-card">
             <h3 className="plan-title">Pro</h3>
             <p className="plan-price">$49/month</p>

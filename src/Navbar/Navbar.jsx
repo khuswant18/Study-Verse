@@ -15,8 +15,8 @@ function Navbar() {
             <NavLink to="" className="nav-link">Home</NavLink>
             <NavLink to='/courses' href="" className="nav-link">Courses</NavLink>
             <NavLink to="/pricing" className="nav-link">Pricing</NavLink>
-            <NavLink to="/Blog" className="nav-link">Blog</NavLink>
-            <NavLink to="/About" className="nav-link">About</NavLink>
+            <NavLink to="/stories" className="nav-link">Stories</NavLink>
+            <NavLink to="/about" className="nav-link">About</NavLink>
           </nav>
 
           <a href="#contact" className="contact-button">

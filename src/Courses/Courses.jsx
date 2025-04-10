@@ -169,7 +169,7 @@ function Courses() {
             </div>
             <div className="course-body">
               <div className="top">
-                <h2 className="course-name">JAVA & DSA</h2>
+                <h2 className="course-name">Aptitude</h2>
                 <div className="tags">
                   <p>ENGLISH</p>
                 </div>
@@ -178,11 +178,11 @@ function Courses() {
                 <div className="left">
                   <span>LIMITED TIME DISCOUNT</span>
                   <div className="price">
-                    <p>₹ 6999</p>
+                    <p>₹ 2999</p>
                   </div>
                 </div>
                 <div className="right">
-                  <div className="offer">60% OFF</div>
+                  <div className="offer">12% OFF</div>
                 </div>
               </div>
             </div>
@@ -194,7 +194,7 @@ function Courses() {
             </div>
             <div className="course-body">
               <div className="top">
-                <h2 className="course-name">JAVA & DSA</h2>
+                <h2 className="course-name">Reasoning</h2>
                 <div className="tags">
                   <p>ENGLISH</p>
                 </div>
@@ -203,11 +203,11 @@ function Courses() {
                 <div className="left">
                   <span>LIMITED TIME DISCOUNT</span>
                   <div className="price">
-                    <p>₹ 6999</p>
+                    <p>₹999</p>
                   </div>
                 </div>
                 <div className="right">
-                  <div className="offer">60% OFF</div>
+                  <div className="offer">10% OFF</div>
                 </div>
               </div>
             </div>
